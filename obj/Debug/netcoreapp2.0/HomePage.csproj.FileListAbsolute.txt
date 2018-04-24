@@ -1,0 +1,11 @@
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\bin\Debug\netcoreapp2.0\HomePage.deps.json
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\bin\Debug\netcoreapp2.0\HomePage.runtimeconfig.json
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\bin\Debug\netcoreapp2.0\HomePage.runtimeconfig.dev.json
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\bin\Debug\netcoreapp2.0\HomePage.dll
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\bin\Debug\netcoreapp2.0\HomePage.pdb
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\obj\Debug\netcoreapp2.0\HomePage.csprojResolveAssemblyReference.cache
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\obj\Debug\netcoreapp2.0\HomePage.csproj.CoreCompileInputs.cache
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\obj\Debug\netcoreapp2.0\HomePage.AssemblyInfoInputs.cache
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\obj\Debug\netcoreapp2.0\HomePage.AssemblyInfo.cs
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\obj\Debug\netcoreapp2.0\HomePage.dll
+C:\Users\Kuba\Desktop\Projekty\HomePage\HomePage\obj\Debug\netcoreapp2.0\HomePage.pdb

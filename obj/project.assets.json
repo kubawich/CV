@@ -12532,6 +12532,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.6",
+      "Microsoft.AspNetCore.Antiforgery >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -12582,6 +12583,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.6, )"
+          },
+          "Microsoft.AspNetCore.Antiforgery": {
+            "target": "Package",
+            "version": "[2.0.2, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

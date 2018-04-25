@@ -24,6 +24,7 @@
       "HomePage/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
+          "Microsoft.AspNetCore.Antiforgery": "2.0.2",
           "Microsoft.NETCore.App": "2.0.0"
         },
         "runtime": {

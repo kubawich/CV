@@ -1,0 +1,24 @@
+﻿{
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#000",
+  "short_name": "Jakub Wichlinski",
+  "icons": [
+    {
+      "src": "ico_48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "ico_96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "ico_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://jakub.wichlinski.pl/"
+}

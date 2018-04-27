@@ -186,12 +186,12 @@ hr {
 
 @keyframes content {
     0% {
-        transform: translateX(-6em);
+        transform: translateX(-4.5em);
         opacity: 0;
     }
 
 }
 
 #About {
-    animation: 1.9s .75s content backwards ease-out;
+    animation: 1.8s .65s content backwards ease-out;
 }

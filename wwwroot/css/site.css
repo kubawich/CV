@@ -99,7 +99,7 @@ h5 {
     font-weight: lighter;
 }
 
-#footer_hr {
+hr {
     border-style: solid;
     border-width: 2px;
 }
@@ -143,4 +143,26 @@ h5 {
     animation-name: center_menu_element;
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {
+        transform: translateY(.4em);
+        opacity: 0;
+    }
+}
+
+.header_text {
+   animation : 1s .35s fade backwards ease-out;
+}
+
+@keyframes fade_buttons {
+    0% {
+        transform: translateY(.4em);
+        opacity: 0;
+    }
+}
+
+.header_buttons {
+    animation: 1s .75s fade_buttons backwards ease-out;
 }

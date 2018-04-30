@@ -218,3 +218,62 @@ footer {
 footer>.container>.row{
      margin-bottom:0px !important;
  }
+
+.chart {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    grid-column-gap: 15px;
+    height: 60vh;
+    width: 35vw;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[class*="bar"] {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+    transition: all .6s ease;
+    grid-row-end: 102;
+    &:hover
+
+{
+    opacity: .5;
+    cursor: pointer;
+}
+
+}
+
+.bar-1 {
+    grid-row-start: 1;
+}
+
+.bar-2 {
+    grid-row-start: 30;
+}
+
+.bar-3 {
+    grid-row-start: 20;
+}
+
+.bar-4 {
+    grid-row-start: 50;
+}
+
+.bar-5 {
+    grid-row-start: 60;
+}
+
+.bar-6 {
+    grid-row-start: 20;
+}
+
+[class*="bar"]:nth-child(odd) {
+    background-color: #ff4136;
+}
+
+[class*="bar"]:nth-child(even) {
+    background-color: #0074d9;
+}

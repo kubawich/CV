@@ -1,6 +1,17 @@
 ﻿let container = document.getElementById('content');
 
+let xmlhttp = new XMLHttpRequest();
+let url = "https://api.github.com/users/kubawich";
+let myArr;
+
 function Change(section) {
+
+    window.scrollBy({
+        top: 400, 
+        left: 0,
+        behavior: 'smooth'
+    });
+
     if (section == `About`) {
         container.innerHTML = null;
         let about = document.createElement('about');
@@ -8,6 +19,8 @@ function Change(section) {
         riot.mount(about, 'about');
     }
     else if (section == `Portfolio`) {
+        
+
         container.innerHTML = null;
         let portfolio = document.createElement('portfolio');
         container.appendChild(portfolio);
@@ -20,3 +33,5 @@ function Change(section) {
         riot.mount(blog, 'blog');
     }
 }
+
+

@@ -2,7 +2,7 @@
 <div>    
   <div id="About">
 	  <div class="row container">
-		  <h2>About me</h2>
+		  <h2 class="center-align">About me</h2>
 		  <div class="flex"><div class="circle col m1 "></div></div>
 		  <div class="col s12 m9">
 			  <h5 style="padding-left:20px;" id="shaped_text" class="story">
@@ -31,7 +31,7 @@
 		  </div>
 	  </div>
   <div class="container row">
-		  <h2>The beginning</h2>
+		  <h2 class="center-align">The beginning</h2>
 		  <h5 class="story">
         My coding adventure has started on the day of my 10th birthday when I got my first laptop. I've started reading
         about windows shell batch scripts, I've read tons of docs, tutorials and posts about basic scripting concepts. After that I made 
@@ -39,7 +39,7 @@
         Unfortunately I tried to find my old youtube chanel where I was posting my coding progress but it was deleted.
       </h5>
 		  <br />
-		  <h2>Huge fail</h2>
+		  <h2 class="center-align">Huge fail</h2>
 		  <h5 class="story">
         I wanted to start something serious, like generating .exe files, manipulate deeper system's functions, creating GUI etc.
         Internet told me that C++ will be great as first coding language for young beginner(sic!) Why not, I thought. I've downloaded
@@ -49,7 +49,7 @@
         even understand a fraction of these concepts so I started loosing my willing to code, and I started doing stuff in Blender3D, and was getting
         back maybe once per 3 months to wirte simple tool like BMI calculator, just to not forget everything and it was some kind of crossword substitute for me
       </h5>
-		  <h2>Serious bussiness</h2>
+		  <h2 class="center-align">Serious bussiness</h2>
 		  <h5 class="story">
         In October, during first year of high school, a friend of mine convinced me to go to Warsaw's university free .NET bootcamp called `Junior .NET`.
         I took my ubuntu laptop, installed mono runtime and I was shocked  about C#, how great and easy it was! First lesson wasn't anything more than introduction to Console.Write(),

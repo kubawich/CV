@@ -222,8 +222,28 @@ footer>.container>.row{
 .bar {
     background-color: royalblue;
     margin-bottom:2.3rem;
-    height:2.3rem;
+    height:2.6rem;
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .bar {
+        background-color: royalblue;
+        margin-bottom: 2.7rem;
+        font-size:smaller;
+        font-weight:500;
+        height: 2.6rem;
+        color: white;
+    }
+
+}
+@media only screen and (min-width: 600px) {
+    .bar {
+        background-color: royalblue;
+        margin-bottom: 2.7rem;
+        height: 2.3rem;
+        color: white;
+    }
 }
 
 @keyframes bar1 {

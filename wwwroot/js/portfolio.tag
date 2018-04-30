@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="container row">
-    <div class="col">      
+    <div >      
       <h2 class="center-align">Projects on <a href="https://github.com/kubawich">my GitHub</a></h2>
       <h3 id="repos" class="center-align" style="font-weight:900;">Fetching Data</h3>
     </div>
@@ -52,6 +52,8 @@
   </div>
   <div class="container row">
     <h2 class="center-align">Latest projects</h2>
+    <br></br>
+    
   </div>
 
 

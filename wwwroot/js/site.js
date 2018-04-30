@@ -6,10 +6,9 @@ let myArr;
 
 function Change(section) {
 
-    window.scrollBy({
-        top: 500, 
-        left: 0,
-        behavior: 'smooth'
+    document.querySelector('.divider').scrollIntoView({
+        behavior: 'smooth',
+        block: "start"
     });
 
     if (section == `About`) {

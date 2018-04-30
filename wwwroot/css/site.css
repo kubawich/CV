@@ -206,7 +206,7 @@ hr {
 
 }
 
-#About {
+#About, #Portfolio, #Blog {
     animation: 1.3s .3s content backwards ease-out;
 }
 

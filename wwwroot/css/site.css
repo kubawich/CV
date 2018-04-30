@@ -219,61 +219,64 @@ footer>.container>.row{
      margin-bottom:0px !important;
  }
 
-.chart {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(100, 1fr);
-    grid-column-gap: 15px;
-    height: 60vh;
-    width: 35vw;
-    padding: 5px 10px;
-    margin-left: auto;
-    margin-right: auto;
+.bar {
+    background-color: royalblue;
+    margin-bottom:2.3rem;
+    height:2.3rem;
+    color: white;
 }
 
-[class*="bar"] {
-    margin: 0;
-    padding: 0;
-    border-radius: 5px 5px 0 0;
-    transition: all .6s ease;
-    grid-row-end: 102;
-    &:hover
-
-{
-    opacity: .5;
-    cursor: pointer;
+@keyframes bar1 {
+    0% {width:0%;}
+    100% {width: 90%;}
+}
+.bar:nth-last-child(5) {
+    animation: 2.5s .3s bar1 backwards ease-out;
+    animation-fill-mode: forwards;
 }
 
+@keyframes bar2 {
+    0% {width:0%;}
+    100% {width: 70%;}
+}
+.bar:nth-last-child(4) {
+    animation: 2.5s .3s bar2 backwards ease-out;
+    animation-fill-mode: forwards;
 }
 
-.bar-1 {
-    grid-row-start: 1;
+@keyframes bar3 {
+    0% {width:0%;}
+    100% {width: 60%;}
+}
+.bar:nth-last-child(3) {
+    animation: 2.5s .3s bar3 backwards ease-out;
+    animation-fill-mode: forwards;
 }
 
-.bar-2 {
-    grid-row-start: 30;
+@keyframes bar4 {
+    0% {width:0%;}
+    100% {width: 80%;}
+}
+.bar:nth-last-child(2) {
+    animation: 2.5s .3s bar4 backwards ease-out;
+    animation-fill-mode: forwards;
 }
 
-.bar-3 {
-    grid-row-start: 20;
+@keyframes bar5 {
+    0% {width:0%}
+    100% {width: 50%;}
+}
+.bar:last-child {
+    animation: 2.5s .3s bar5 backwards ease-out;
+    animation-fill-mode: forwards;
 }
 
-.bar-4 {
-    grid-row-start: 50;
+.bar>p:nth-child(odd){
+    letter-spacing:4px;
+    font-weight:bolder;
+    margin-left:2rem;
 }
-
-.bar-5 {
-    grid-row-start: 60;
-}
-
-.bar-6 {
-    grid-row-start: 20;
-}
-
-[class*="bar"]:nth-child(odd) {
-    background-color: #ff4136;
-}
-
-[class*="bar"]:nth-child(even) {
-    background-color: #0074d9;
+.bar>p:nth-child(even){
+    letter-spacing:2px;
+    margin-left:1rem;
 }

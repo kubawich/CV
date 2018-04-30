@@ -6,9 +6,7 @@ let myArr;
 
 function Change(section) {
 
-    window.scrollBy({
-        top: 400, 
-        left: 0,
+    document.querySelector('about').scrollIntoView({
         behavior: 'smooth'
     });
 

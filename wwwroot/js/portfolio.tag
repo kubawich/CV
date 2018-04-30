@@ -2,18 +2,33 @@
   <div class="container row">
     <div class="column">      
       <h2 class="center-align">Projects on <a href="https://github.com/kubawich">my GitHub</a></h2>
-      <h2 id="repos" class="center-align" style="font-weight:900;">Fetching Data</h2 >
+      <h3 id="repos" class="center-align" style="font-weight:900;">Fetching Data</h3>
     </div>
   </div>
-  <br />
-    <div class="chart">
-      <div class="bar-1"></div>
-      <div class="bar-2"></div>
-      <div class="bar-3"></div>
-      <div class="bar-4"></div>
-      <div class="bar-5"></div>
-      <div class="bar-6"></div>
+  <div class="container row">
+    <h2 class="center-align">My skills</h2>
+    <div class="bar valign-wrapper">
+      <p>90%</p>
+      <p>C#</p>
     </div>
+    <div class="bar valign-wrapper">
+      <p>70%</p>
+      <p>ASP.NET core</p>
+    </div>
+    <div class="bar valign-wrapper">
+      <p>60%</p>
+      <p>Linux and DBs</p>
+    </div>
+    <div class="bar valign-wrapper">
+      <p>80%</p>
+      <p>Unity3D</p>
+    </div>
+    <div class="bar valign-wrapper">
+      <p>50%</p>
+      <p>Frontend</p>
+    </div>
+  </div>
+    
   <script>
   let xmlhttp = new XMLHttpRequest();
   let url = "https://api.github.com/users/kubawich";

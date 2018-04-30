@@ -50,6 +50,9 @@
       </h5>
     </div>
   </div>
+  <div class="container row">
+    <h2 class="center-align">Latest projects</h2>
+  </div>
 
 
 

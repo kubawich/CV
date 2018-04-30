@@ -11,6 +11,8 @@ function Change(section) {
         block: "start"
     });
 
+    document.getElementById("top").addEventListener("click", function (event) {}, false);
+
     if (section == `About`) {
         container.innerHTML = null;
         let about = document.createElement('about');

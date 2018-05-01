@@ -6,7 +6,7 @@
 		  <div class="flex"><div class="circle col m1 "></div></div>
 		  <div class="col s12 m9">
 			  <h5 style="padding-left:20px;" id="shaped_text" class="story">
-				  Hi, my name is Jakub Wichliński(This guy in a photo).
+				  Hi, my name is Jakub Wichliński(I don't have nice photo of me, so i just put this purple circle).
 				  I'm 19 years old, living in Warsaw, and currently studying in
 				  Technikum Lotnicze nr. 9 Im. Bohaterów Narwiku.
 			  </h5>

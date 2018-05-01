@@ -46,7 +46,7 @@
         </a>
       </div>
       <h5 class="center-align">
-        Here's <a href="https://jakub.wichlinski.pl/cv" target="_blank">my CV</a> where You can find my contact data.
+        Here's <a href="https://jakub.wichlinski.pl/CV.pdf" target="_blank">my CV</a> where You can find my contact data.
       </h5>
       <h5 class="center-align">
        If You prefer other method, You can contact me through <a href="http://nsfwpics.pw/aditional/contact">this form</a> on one of my websites.

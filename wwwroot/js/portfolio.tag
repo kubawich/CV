@@ -46,7 +46,7 @@
         </a>
       </div>
       <h5 class="center-align">
-        Here's <a href="https://jakub.wichlinski.pl/cv">my CV</a> where You can find my contact data.
+        Here's <a href="https://jakub.wichlinski.pl/cv" target="_blank">my CV</a> where You can find my contact data.
       </h5>
       <h5 class="center-align">
        If You prefer other method, You can contact me through <a href="http://nsfwpics.pw/aditional/contact">this form</a> on one of my websites.
@@ -61,7 +61,7 @@
     <h2 class="center-align">NSFWpics.pw</h2>
     <br />
     <h5 class="story">
-      <a href="http://nsfwpics.pw">NSFWpics</a> is my first web project. I got idea for porn imageboard when I wrote web crawler which downloads +18 photos from internet.
+      <a href="http://nsfwpics.pw" target="_blank">NSFWpics</a> is my first web project. I got idea for porn imageboard when I wrote web crawler which downloads +18 photos from internet.
       Finishing coding it took me 1.5 months, and this time includes, server scripting, automation scripts, learning API, REST, Razor, ASP.NET, routing and dynamic content generation, and mostly frontend technologies.
       <p>Stack I used for this project:</p>
       <ul style="list-style-image: url('../fonts/chevron.svg'); line-height:2.8rem;" class="col s12 m8 offset-m3">
@@ -71,6 +71,7 @@
         <li>Ubuntu 16.4, NGinx, Python 2.7, Bash</li>
         <li>Git</li>
       </ul>
+      <a href="https://github.com/kubawich/nsfwpics" target="_blank">Here's linkt to project on GitHub</a>
     </h5>
   </div>
 

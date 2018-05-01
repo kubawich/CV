@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
@@ -219,6 +224,7 @@ footer>.container>.row{
      margin-bottom:0px !important;
  }
 
+
 .bar {
     background-color: royalblue;
     margin-bottom:2.3rem;
@@ -299,4 +305,22 @@ footer>.container>.row{
 .bar>p:nth-child(even){
     letter-spacing:2px;
     margin-left:1rem;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -47vw;
+}
+
+.parallax {
+    background-image: url("/fonts/nsfw.png");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

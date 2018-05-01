@@ -56,7 +56,7 @@
   <div class="container row">
     <h2 class="center-align" style="font-weight:600;">Latest projects</h2>
     <br></br>
-    <figure class="full-width parallax">
+    <figure class="full-width parallax0">
     </figure>    
     <h2 class="center-align">NSFWpics.pw</h2>
     <br />
@@ -65,13 +65,45 @@
       Finishing coding it took me 1.5 months, and this time includes, server scripting, automation scripts, learning API, REST, Razor, ASP.NET, routing and dynamic content generation, and mostly frontend technologies.
       <p>Stack I used for this project:</p>
       <ul style="list-style-image: url('../fonts/chevron.svg'); line-height:2.8rem;" class="col s12 m8 offset-m3">
-        <li>ASP.NET core 2.0 Razor</li>
-        <li>Vanila JS, VUE, RiotJS</li>
+        <li>ASP.NET core 2.0, Razor, API</li>
+        <li>Vanilla JS, VUE, RiotJS</li>
         <li>CSS, materialize, Roboto</li>
         <li>Ubuntu 16.4, NGinx, Python 2.7, Bash</li>
         <li>Git</li>
       </ul>
-      <a href="https://github.com/kubawich/nsfwpics" target="_blank">Here's linkt to project on GitHub</a>
+      <p class="center-align"><a href="https://github.com/kubawich/nsfwpics" target="_blank" >Here's linkt to project on GitHub</a></p>
+    </h5>
+  
+    <figure class="full-width parallax1">
+    </figure>    
+    <h2 class="center-align">Hinczyk</h2>
+    <br />
+    <h5 class="story">
+      My first 3D game. I used this project to understand Data driven development, modular gamedev, agile and scrum basics and 3D geometry programming.
+      <p>Stack I used for this project:</p>
+      <ul style="list-style-image: url('../fonts/chevron.svg'); line-height:2.8rem;" class="col s12 m7 offset-m5">
+        <li>Unity3D</li>
+        <li>C#, JSON</li>
+        <li>Blender</li>
+        <li>Git</li>
+      </ul>
+      <p class="center-align"><a href="https://github.com/kubawich/Hi-czyk-Unity-Desktop-Game" target="_blank" >Here's linkt to project on GitHub</a></p>
+    <p class="center-align"><a href="https://www.youtube.com/channel/UC8ojD7gMlvd54-YGf2fR3Ag?view_as=subscriber" target="_blank" >And here link to YouTube chanel where I documented project's progress</a></p>
+    </h5>
+  <figure class="full-width parallax2">
+    </figure>    
+    <h2 class="center-align">SFML asteroids</h2>
+    <br />
+    <h5 class="story">
+      I wanted to try more low level game framework. As I used SFML before in C++ I wanted to try it's port to C#. It was fun coding it project, it showed me trigonometrics, lower level game loop, shaders, and deeper understanding in OOP. 
+      <p>Stack I used for this project:</p>
+      <ul style="list-style-image: url('../fonts/chevron.svg'); line-height:2.8rem;" class="col s12 m7 offset-m5">
+        <li>C#, GLSL</li>
+        <li>GIMP</li>
+        <li>My maths book :v</li>
+        <li>Git</li>
+      </ul>
+      <p class="center-align"><a href="https://github.com/kubawich/AsteroidsSFML" target="_blank" >Here's linkt to project on GitHub</a></p>
     </h5>
   </div>
 

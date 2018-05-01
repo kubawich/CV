@@ -316,8 +316,26 @@ footer>.container>.row{
     margin-right: -47vw;
 }
 
-.parallax {
+.parallax0 {
     background-image: url("/fonts/nsfw.png");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url("/fonts/hinczyk.png");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("/fonts/asteroids.PNG");
     height: 200px;
     background-attachment: fixed;
     background-position: top;

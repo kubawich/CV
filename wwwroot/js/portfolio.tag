@@ -105,6 +105,26 @@
       </ul>
       <p class="center-align"><a href="https://github.com/kubawich/AsteroidsSFML" target="_blank" >Here's linkt to project on GitHub</a></p>
     </h5>
+  <figure class="full-width parallax3">
+    </figure>    
+    <h2 class="center-align">Jump game</h2>
+    <br />
+    <h5 class="story">
+      First game that I made in Unity3D. I started coding this porject after 2 months of .NET weekly bootcamp I mentioned before. Code is totally spaghetti and unefficient, now I would writ it in 50% LOC and more efficient, and I'll find time someday for this :D
+      <p>Stack I used for this project:</p>
+      <ul style="list-style-image: url('../fonts/chevron.svg'); line-height:2.8rem;" class="col s12 m7 offset-m5">
+        <li>C#</li>
+        <li>Photoshop</li>
+        <li>Lot of SO</li>
+        <li>Git</li>
+      </ul>
+      <p class="center-align"><a href="https://github.com/kubawich/JumpJump" target="_blank" >Here's linkt to project on GitHub</a></p>
+      <p class="center-align"><a href="https://www.amazon.com/gp/product/B01N31JLIJ" target="_blank" >Yet here's link to amazon app store, where I published this project publicly.</a></p>
+    </h5>
+  </div>
+  <div class="divider"></div>
+  <div class="container center-align">
+    <h4>There's yet several projects that I made, but they're too small to publish here, even though they're not here, You can find them on my GitHub. I'll update this section with another new, big projects in future, stay tuned!</h4>
   </div>
 
 

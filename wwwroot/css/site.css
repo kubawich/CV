@@ -342,3 +342,12 @@ footer>.container>.row{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax3 {
+    background-image: url("/fonts/jump.PNG");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

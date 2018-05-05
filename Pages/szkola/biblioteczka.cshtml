@@ -28,37 +28,36 @@
 			
 		</div>
 		<div class="container col s12 m6">
-			<h3 class="center-align">Wyszukaj książkę w bazie po:</h3>
-			<form method="get">
-				<div class="center-align">
-					<p style="display:inline;margin-right:30px;">
-						<label>
-							<input name="category" type="radio" checked />
-							<span>Tytuł</span>
-						</label>
-					</p>
-					<p style="display:inline;margin-right:30px;">
-						<label>
-							<input name="category" type="radio" />
-							<span>Autor</span>
-						</label>
-					</p>
-					<p style="display:inline;margin-right:30px;">
-						<label>
-							<input name="category" type="radio" />
-							<span>Rok wydania</span>
-						</label>
-					</p>
-					<p style="display:inline;margin-right:30px;">
-						<label>
-							<input name="category" type="radio" />
-							<span>Liczba stron</span>
-						</label>
-					</p>
-				</div>
-				<div class="center-align"><input type="submit" style="padding:4px 40px; margin-top:2rem" value="Szukaj" /></div>
-			</form>
-			<input type="text" disabled contenteditable="false" name="query_result" value="Wynik szukania" />
+			<h3 class="center-align">Wyszukaj książkę w bazie po:</h3>			
+			<div class="center-align">
+				<p style="display:inline;margin-right:30px;">
+					<label>
+						<input name="category" type="radio" checked id="radio_title"/>
+						<span>Tytuł</span>
+					</label>
+				</p>
+				<p style="display:inline;margin-right:30px;">
+					<label>
+						<input name="category" type="radio" id="radio_author"/>
+						<span>Autor</span>
+					</label>
+				</p>
+				<p style="display:inline;margin-right:30px;">
+					<label>
+						<input name="category" type="radio" id="radio_year" />
+						<span>Rok wydania</span>
+					</label>
+				</p>
+				<p style="display:inline;margin-right:30px;">
+					<label>
+						<input name="category" type="radio" id="radio_pages" />
+						<span>Liczba stron</span>
+					</label>
+				</p>
+				<input type="text" required name="book_name" placeholder="Tytuł książki" id="look_title" />
+			</div>
+				<div class="center-align"><input type="submit" style="padding:4px 40px; margin-top:2rem" value="Szukaj" onclick="lookForBook()"/></div>
+			<input type="text" disabled contenteditable="false" name="query_result" value="Wynik szukania" id="result"/>
 		</div>
 	</div>
 	<div class="container">

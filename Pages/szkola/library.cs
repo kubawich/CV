@@ -37,7 +37,7 @@ namespace HomePage.Pages.szkola
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/<controller>/5
+        // GET api/library/api/library/Dziady/AdamMickiewicz/1860/290
         [Route("api/[controller]/{title}/{author}/{year}/{pages}")]
         [HttpGet]
         public string Get(string title, string author, string year, string pages)
@@ -51,6 +51,94 @@ namespace HomePage.Pages.szkola
                 cmd.ExecuteNonQuery();
                 conn.Close();
                 return "success";
+            }
+            catch { return null; }
+        }
+
+        // GET api/library/api/library/Dziady/AdamMickiewicz/1860/290
+        [Route("api/[controller]/get/{type}/{query}")]
+        [HttpGet]
+        public Book Get(int type,string query)
+        {
+            try
+            {
+                Book book;
+                MySqlConnection conn = new MySqlConnection(connection.ToString());
+                MySqlCommand cmd;
+                if (type == 1)
+                {
+                    cmd = new MySqlCommand($"SELECT * FROM library WHERE title = '{query}'", conn);
+                    conn.Open();
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        return book = new Book
+                        {
+                            title = reader["title"].ToString(),
+                            author = reader["author"].ToString(),
+                            year = reader["year"].ToString(),
+                            pages = reader["pages"].ToString()
+                        };
+                    }
+                    conn.Close();
+                    return new Book();
+                }
+                else if(type == 2)
+                {
+                    cmd = new MySqlCommand($"SELECT * FROM library WHERE author = '{query}'", conn);
+                    conn.Open();
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        return book = new Book
+                        {
+                            title = reader["title"].ToString(),
+                            author = reader["author"].ToString(),
+                            year = reader["year"].ToString(),
+                            pages = reader["pages"].ToString()
+                        };
+                    }
+                    conn.Close();
+                    return new Book();
+                }
+                else if (type == 3)
+                {
+                    cmd = new MySqlCommand($"SELECT * FROM library WHERE year = '{query}'", conn);
+                    conn.Open();
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        return book = new Book
+                        {
+                            title = reader["title"].ToString(),
+                            author = reader["author"].ToString(),
+                            year = reader["year"].ToString(),
+                            pages = reader["pages"].ToString()
+                        };
+                    }
+                    conn.Close();
+                    return new Book();
+                }
+                else if (type == 4)
+                {
+                    cmd = new MySqlCommand($"SELECT * FROM library WHERE pages = '{query}'", conn);
+                    conn.Open();
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        return book = new Book
+                        {
+                            title = reader["title"].ToString(),
+                            author = reader["author"].ToString(),
+                            year = reader["year"].ToString(),
+                            pages = reader["pages"].ToString()
+                        };
+                    }
+                    conn.Close();
+                    return new Book();
+                }
+
+                return new Book();
             }
             catch { return null; }
         }

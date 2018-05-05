@@ -51,3 +51,67 @@ function fetchForm() {
 
     sendtoDB(name, author, year, pages);
 }
+
+//Look for book
+
+function lookForBook() {
+    let result = document.getElementById('result');
+    let query_input = document.getElementById('look_title').value;
+
+    if (document.getElementById('radio_title').checked == true) {
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+                if (xmlhttp.status == 200) {
+                    let res = JSON.parse(xmlhttp.responseText);
+                    result.value = `Tytuł: ${res.title}  Autor: ${res.author} Rok wydania: ${res.year} Strony: ${res.pages}`
+                }
+            }
+        };
+        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${1}/${query_input}`, true);
+        xmlhttp.send();
+    }
+    else if (document.getElementById('radio_author').checked == true) {
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+                if (xmlhttp.status == 200) {
+                    let res = JSON.parse(xmlhttp.responseText);
+                    result.value = `Tytuł: ${res.title}  Autor: ${res.author} Rok wydania: ${res.year} Strony: ${res.pages}`
+                }
+            }
+        };
+        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${2}/${query_input}`, true);
+        xmlhttp.send();
+    }
+    else if (document.getElementById('radio_year').checked == true) {
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+                if (xmlhttp.status == 200) {
+                    let res = JSON.parse(xmlhttp.responseText);
+                    result.value = `Tytuł: ${res.title}  Autor: ${res.author} Rok wydania: ${res.year} Strony: ${res.pages}`
+                }
+            }
+        };
+        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${3}/${query_input}`, true);
+        xmlhttp.send();
+    }
+    else if (document.getElementById('radio_pages').checked == true) {
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+                if (xmlhttp.status == 200) {
+                    let res = JSON.parse(xmlhttp.responseText);
+                    result.value = `Tytuł: ${res.title}  Autor: ${res.author} Rok wydania: ${res.year} Strony: ${res.pages}`
+                }
+            }
+        };
+        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${4}/${query_input}`, true);
+        xmlhttp.send();
+    }
+}

@@ -146,6 +146,37 @@ namespace HomePage.Pages.szkola
             catch { return null; }
         }
 
+        // GET api/library/api/library/Dziady/AdamMickiewicz/1860/290
+        [EnableCors(origins: "https://jakub.wichlinski.pl", headers: "*", methods: "*")]
+        [Route("api/[controller]/get/{table}")]
+        [HttpGet]
+        public List<Book> Get(string table)
+        {
+            try
+            {
+                List<Book> books = new List<Book>();
+                Book book;
+                MySqlConnection conn = new MySqlConnection(connection.ToString());
+                MySqlCommand cmd;
+                cmd = new MySqlCommand($"SELECT * FROM {table}", conn);
+                conn.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    books.Add(new Book
+                    {
+                        title = reader["title"].ToString(),
+                        author = reader["author"].ToString(),
+                        year = reader["year"].ToString(),
+                        pages = reader["pages"].ToString()
+                    });
+                }
+                conn.Close();
+                return books;
+            }
+            catch { return null; }
+        }
+
         // POST api/<controller>
         [HttpPost]
         public void Post([FromBody]string value)

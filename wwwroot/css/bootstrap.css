@@ -2244,7 +2244,7 @@ svg:not(:root) {
     overflow: hidden
 }
 
-button, input, optgroup, select, textarea {
+button, input, optgroup,  textarea {
     font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
@@ -2255,7 +2255,7 @@ button, input {
     overflow: visible
 }
 
-button, select {
+button {
     text-transform: none
 }
 
@@ -2295,7 +2295,7 @@ textarea {
     overflow: auto
 }
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0
@@ -2349,7 +2349,7 @@ html {
     box-sizing: inherit
 }
 
-button, input, optgroup, select, textarea {
+button, input, optgroup, textarea {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif
 }
 
@@ -5909,10 +5909,6 @@ button.btn-floating {
     -webkit-font-smoothing: antialiased
 }
 
-select:focus {
-    outline: 1px solid #c9f3ef
-}
-
 button:focus {
     outline: none;
     background-color: #2ab7a9
@@ -5991,19 +5987,19 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
         width: 100%
     }
 
-    input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+    input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus{
         border-bottom: 1px solid #4caf50;
         -webkit-box-shadow: 0 1px 0 0 #4caf50;
         box-shadow: 0 1px 0 0 #4caf50
     }
 
-    input.invalid:not([type]), input.invalid:not([type]):focus, input[type=text].invalid:not(.browser-default), input[type=text].invalid:not(.browser-default):focus, input[type=password].invalid:not(.browser-default), input[type=password].invalid:not(.browser-default):focus, input[type=email].invalid:not(.browser-default), input[type=email].invalid:not(.browser-default):focus, input[type=url].invalid:not(.browser-default), input[type=url].invalid:not(.browser-default):focus, input[type=time].invalid:not(.browser-default), input[type=time].invalid:not(.browser-default):focus, input[type=date].invalid:not(.browser-default), input[type=date].invalid:not(.browser-default):focus, input[type=datetime].invalid:not(.browser-default), input[type=datetime].invalid:not(.browser-default):focus, input[type=datetime-local].invalid:not(.browser-default), input[type=datetime-local].invalid:not(.browser-default):focus, input[type=tel].invalid:not(.browser-default), input[type=tel].invalid:not(.browser-default):focus, input[type=number].invalid:not(.browser-default), input[type=number].invalid:not(.browser-default):focus, input[type=search].invalid:not(.browser-default), input[type=search].invalid:not(.browser-default):focus, textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown, .select-wrapper.invalid > input.select-dropdown:focus {
+    input.invalid:not([type]), input.invalid:not([type]):focus, input[type=text].invalid:not(.browser-default), input[type=text].invalid:not(.browser-default):focus, input[type=password].invalid:not(.browser-default), input[type=password].invalid:not(.browser-default):focus, input[type=email].invalid:not(.browser-default), input[type=email].invalid:not(.browser-default):focus, input[type=url].invalid:not(.browser-default), input[type=url].invalid:not(.browser-default):focus, input[type=time].invalid:not(.browser-default), input[type=time].invalid:not(.browser-default):focus, input[type=date].invalid:not(.browser-default), input[type=date].invalid:not(.browser-default):focus, input[type=datetime].invalid:not(.browser-default), input[type=datetime].invalid:not(.browser-default):focus, input[type=datetime-local].invalid:not(.browser-default), input[type=datetime-local].invalid:not(.browser-default):focus, input[type=tel].invalid:not(.browser-default), input[type=tel].invalid:not(.browser-default):focus, input[type=number].invalid:not(.browser-default), input[type=number].invalid:not(.browser-default):focus, input[type=search].invalid:not(.browser-default), input[type=search].invalid:not(.browser-default):focus, textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus{
         border-bottom: 1px solid #f44336;
         -webkit-box-shadow: 0 1px 0 0 #f44336;
         box-shadow: 0 1px 0 0 #f44336
     }
 
-        input:not([type]).valid ~ .helper-text[data-success], input:not([type]):focus.valid ~ .helper-text[data-success], input:not([type]).invalid ~ .helper-text[data-error], input:not([type]):focus.invalid ~ .helper-text[data-error], input[type=text]:not(.browser-default).valid ~ .helper-text[data-success], input[type=text]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=text]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=text]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=password]:not(.browser-default).valid ~ .helper-text[data-success], input[type=password]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=password]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=password]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=email]:not(.browser-default).valid ~ .helper-text[data-success], input[type=email]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=email]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=email]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=url]:not(.browser-default).valid ~ .helper-text[data-success], input[type=url]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=url]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=url]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=time]:not(.browser-default).valid ~ .helper-text[data-success], input[type=time]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=time]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=time]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=date]:not(.browser-default).valid ~ .helper-text[data-success], input[type=date]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=date]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=date]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=datetime]:not(.browser-default).valid ~ .helper-text[data-success], input[type=datetime]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=datetime]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=datetime]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=datetime-local]:not(.browser-default).valid ~ .helper-text[data-success], input[type=datetime-local]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=datetime-local]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=datetime-local]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=tel]:not(.browser-default).valid ~ .helper-text[data-success], input[type=tel]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=tel]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=tel]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=number]:not(.browser-default).valid ~ .helper-text[data-success], input[type=number]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=number]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=number]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=search]:not(.browser-default).valid ~ .helper-text[data-success], input[type=search]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=search]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=search]:not(.browser-default):focus.invalid ~ .helper-text[data-error], textarea.materialize-textarea.valid ~ .helper-text[data-success], textarea.materialize-textarea:focus.valid ~ .helper-text[data-success], textarea.materialize-textarea.invalid ~ .helper-text[data-error], textarea.materialize-textarea:focus.invalid ~ .helper-text[data-error], .select-wrapper.valid .helper-text[data-success], .select-wrapper.invalid ~ .helper-text[data-error] {
+        input:not([type]).valid ~ .helper-text[data-success], input:not([type]):focus.valid ~ .helper-text[data-success], input:not([type]).invalid ~ .helper-text[data-error], input:not([type]):focus.invalid ~ .helper-text[data-error], input[type=text]:not(.browser-default).valid ~ .helper-text[data-success], input[type=text]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=text]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=text]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=password]:not(.browser-default).valid ~ .helper-text[data-success], input[type=password]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=password]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=password]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=email]:not(.browser-default).valid ~ .helper-text[data-success], input[type=email]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=email]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=email]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=url]:not(.browser-default).valid ~ .helper-text[data-success], input[type=url]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=url]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=url]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=time]:not(.browser-default).valid ~ .helper-text[data-success], input[type=time]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=time]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=time]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=date]:not(.browser-default).valid ~ .helper-text[data-success], input[type=date]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=date]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=date]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=datetime]:not(.browser-default).valid ~ .helper-text[data-success], input[type=datetime]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=datetime]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=datetime]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=datetime-local]:not(.browser-default).valid ~ .helper-text[data-success], input[type=datetime-local]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=datetime-local]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=datetime-local]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=tel]:not(.browser-default).valid ~ .helper-text[data-success], input[type=tel]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=tel]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=tel]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=number]:not(.browser-default).valid ~ .helper-text[data-success], input[type=number]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=number]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=number]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type=search]:not(.browser-default).valid ~ .helper-text[data-success], input[type=search]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type=search]:not(.browser-default).invalid ~ .helper-text[data-error], input[type=search]:not(.browser-default):focus.invalid ~ .helper-text[data-error], textarea.materialize-textarea.valid ~ .helper-text[data-success], textarea.materialize-textarea:focus.valid ~ .helper-text[data-success], textarea.materialize-textarea.invalid ~ .helper-text[data-error], textarea.materialize-textarea:focus.invalid ~ .helper-text[data-error]{
             color: transparent;
             -webkit-user-select: none;
             -moz-user-select: none;
@@ -6012,17 +6008,17 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
             pointer-events: none
         }
 
-    input:not([type]).valid ~ .helper-text:after, input:not([type]):focus.valid ~ .helper-text:after, input[type=text]:not(.browser-default).valid ~ .helper-text:after, input[type=text]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=password]:not(.browser-default).valid ~ .helper-text:after, input[type=password]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=email]:not(.browser-default).valid ~ .helper-text:after, input[type=email]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=url]:not(.browser-default).valid ~ .helper-text:after, input[type=url]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=time]:not(.browser-default).valid ~ .helper-text:after, input[type=time]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=date]:not(.browser-default).valid ~ .helper-text:after, input[type=date]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=datetime]:not(.browser-default).valid ~ .helper-text:after, input[type=datetime]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default).valid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=tel]:not(.browser-default).valid ~ .helper-text:after, input[type=tel]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=number]:not(.browser-default).valid ~ .helper-text:after, input[type=number]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=search]:not(.browser-default).valid ~ .helper-text:after, input[type=search]:not(.browser-default):focus.valid ~ .helper-text:after, textarea.materialize-textarea.valid ~ .helper-text:after, textarea.materialize-textarea:focus.valid ~ .helper-text:after, .select-wrapper.valid ~ .helper-text:after {
+    input:not([type]).valid ~ .helper-text:after, input:not([type]):focus.valid ~ .helper-text:after, input[type=text]:not(.browser-default).valid ~ .helper-text:after, input[type=text]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=password]:not(.browser-default).valid ~ .helper-text:after, input[type=password]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=email]:not(.browser-default).valid ~ .helper-text:after, input[type=email]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=url]:not(.browser-default).valid ~ .helper-text:after, input[type=url]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=time]:not(.browser-default).valid ~ .helper-text:after, input[type=time]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=date]:not(.browser-default).valid ~ .helper-text:after, input[type=date]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=datetime]:not(.browser-default).valid ~ .helper-text:after, input[type=datetime]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default).valid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=tel]:not(.browser-default).valid ~ .helper-text:after, input[type=tel]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=number]:not(.browser-default).valid ~ .helper-text:after, input[type=number]:not(.browser-default):focus.valid ~ .helper-text:after, input[type=search]:not(.browser-default).valid ~ .helper-text:after, input[type=search]:not(.browser-default):focus.valid ~ .helper-text:after, textarea.materialize-textarea.valid ~ .helper-text:after, textarea.materialize-textarea:focus.valid ~ .helper-text:after {
         content: attr(data-success);
         color: #4caf50
     }
 
-    input:not([type]).invalid ~ .helper-text:after, input:not([type]):focus.invalid ~ .helper-text:after, input[type=text]:not(.browser-default).invalid ~ .helper-text:after, input[type=text]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=password]:not(.browser-default).invalid ~ .helper-text:after, input[type=password]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=email]:not(.browser-default).invalid ~ .helper-text:after, input[type=email]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=url]:not(.browser-default).invalid ~ .helper-text:after, input[type=url]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=time]:not(.browser-default).invalid ~ .helper-text:after, input[type=time]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=date]:not(.browser-default).invalid ~ .helper-text:after, input[type=date]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=datetime]:not(.browser-default).invalid ~ .helper-text:after, input[type=datetime]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default).invalid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=tel]:not(.browser-default).invalid ~ .helper-text:after, input[type=tel]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=number]:not(.browser-default).invalid ~ .helper-text:after, input[type=number]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=search]:not(.browser-default).invalid ~ .helper-text:after, input[type=search]:not(.browser-default):focus.invalid ~ .helper-text:after, textarea.materialize-textarea.invalid ~ .helper-text:after, textarea.materialize-textarea:focus.invalid ~ .helper-text:after, .select-wrapper.invalid ~ .helper-text:after {
+    input:not([type]).invalid ~ .helper-text:after, input:not([type]):focus.invalid ~ .helper-text:after, input[type=text]:not(.browser-default).invalid ~ .helper-text:after, input[type=text]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=password]:not(.browser-default).invalid ~ .helper-text:after, input[type=password]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=email]:not(.browser-default).invalid ~ .helper-text:after, input[type=email]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=url]:not(.browser-default).invalid ~ .helper-text:after, input[type=url]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=time]:not(.browser-default).invalid ~ .helper-text:after, input[type=time]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=date]:not(.browser-default).invalid ~ .helper-text:after, input[type=date]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=datetime]:not(.browser-default).invalid ~ .helper-text:after, input[type=datetime]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default).invalid ~ .helper-text:after, input[type=datetime-local]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=tel]:not(.browser-default).invalid ~ .helper-text:after, input[type=tel]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=number]:not(.browser-default).invalid ~ .helper-text:after, input[type=number]:not(.browser-default):focus.invalid ~ .helper-text:after, input[type=search]:not(.browser-default).invalid ~ .helper-text:after, input[type=search]:not(.browser-default):focus.invalid ~ .helper-text:after, textarea.materialize-textarea.invalid ~ .helper-text:after, textarea.materialize-textarea:focus.invalid ~ .helper-text:after {
         content: attr(data-error);
         color: #f44336
     }
 
-    input:not([type]) + label:after, input[type=text]:not(.browser-default) + label:after, input[type=password]:not(.browser-default) + label:after, input[type=email]:not(.browser-default) + label:after, input[type=url]:not(.browser-default) + label:after, input[type=time]:not(.browser-default) + label:after, input[type=date]:not(.browser-default) + label:after, input[type=datetime]:not(.browser-default) + label:after, input[type=datetime-local]:not(.browser-default) + label:after, input[type=tel]:not(.browser-default) + label:after, input[type=number]:not(.browser-default) + label:after, input[type=search]:not(.browser-default) + label:after, textarea.materialize-textarea + label:after, .select-wrapper + label:after {
+    input:not([type]) + label:after, input[type=text]:not(.browser-default) + label:after, input[type=password]:not(.browser-default) + label:after, input[type=email]:not(.browser-default) + label:after, input[type=url]:not(.browser-default) + label:after, input[type=time]:not(.browser-default) + label:after, input[type=date]:not(.browser-default) + label:after, input[type=datetime]:not(.browser-default) + label:after, input[type=datetime-local]:not(.browser-default) + label:after, input[type=tel]:not(.browser-default) + label:after, input[type=number]:not(.browser-default) + label:after, input[type=search]:not(.browser-default) + label:after, textarea.materialize-textarea + label:after {
         display: block;
         content: "";
         position: absolute;
@@ -6045,7 +6041,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
         margin-left: 5px
     }
 
-        .input-field.inline input, .input-field.inline .select-dropdown {
+        .input-field.inline input {
             margin-bottom: 1rem
         }
 
@@ -6227,107 +6223,9 @@ textarea {
     min-height: 18px
 }
 
-[type="radio"]:not(:checked), [type="radio"]:checked {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none
-}
 
-    [type="radio"]:not(:checked) + span, [type="radio"]:checked + span {
-        position: relative;
-        padding-left: 35px;
-        cursor: pointer;
-        display: inline-block;
-        height: 25px;
-        line-height: 25px;
-        font-size: 1rem;
-        -webkit-transition: .28s ease;
-        transition: .28s ease;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none
-    }
 
-[type="radio"] + span:before, [type="radio"] + span:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 4px;
-    width: 16px;
-    height: 16px;
-    z-index: 0;
-    -webkit-transition: .28s ease;
-    transition: .28s ease
-}
 
-[type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after, [type="radio"]:checked + span:before, [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
-    border-radius: 50%
-}
-
-[type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after {
-    border: 2px solid #5a5a5a
-}
-
-[type="radio"]:not(:checked) + span:after {
-    -webkit-transform: scale(0);
-    transform: scale(0)
-}
-
-[type="radio"]:checked + span:before {
-    border: 2px solid transparent
-}
-
-[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
-    border: 2px solid #26a69a
-}
-
-[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
-    background-color: #26a69a
-}
-
-[type="radio"]:checked + span:after {
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02)
-}
-
-[type="radio"].with-gap:checked + span:after {
-    -webkit-transform: scale(.5);
-    transform: scale(.5)
-}
-
-[type="radio"].tabbed:focus + span:before {
-    -webkit-box-shadow: 0 0 0 10px rgba(0,0,0,.1);
-    box-shadow: 0 0 0 10px rgba(0,0,0,.1)
-}
-
-[type="radio"].with-gap:disabled:checked + span:before {
-    border: 2px solid rgba(0,0,0,.42)
-}
-
-[type="radio"].with-gap:disabled:checked + span:after {
-    border: none;
-    background-color: rgba(0,0,0,.42)
-}
-
-[type="radio"]:disabled:not(:checked) + span:before, [type="radio"]:disabled:checked + span:before {
-    background-color: transparent;
-    border-color: rgba(0,0,0,.42)
-}
-
-[type="radio"]:disabled + span {
-    color: rgba(0,0,0,.42)
-}
-
-[type="radio"]:disabled:not(:checked) + span:before {
-    border-color: rgba(0,0,0,.42)
-}
-
-[type="radio"]:disabled:checked + span:after {
-    background-color: rgba(0,0,0,.42);
-    border-color: #949494
-}
 
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     position: absolute;
@@ -6609,151 +6507,12 @@ input[type=checkbox]:not(:disabled) ~ .lever:active:before, input[type=checkbox]
     background-color: #949494
 }
 
-select {
-    display: none
-}
 
-    select.browser-default {
-        display: block
-    }
 
-select {
-    background-color: rgba(255,255,255,.9);
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #f2f2f2;
-    border-radius: 2px;
-    height: 3rem
-}
-
-.select-label {
-    position: absolute
-}
-
-.select-wrapper {
-    position: relative
-}
-
-    .select-wrapper.valid + label, .select-wrapper.invalid + label {
-        width: 100%;
-        pointer-events: none
-    }
-
-    .select-wrapper input.select-dropdown {
-        position: relative;
-        cursor: pointer;
-        background-color: transparent;
-        border: none;
-        border-bottom: 1px solid #9e9e9e;
-        outline: none;
-        height: 3rem;
-        line-height: 3rem;
-        width: 100%;
-        font-size: 16px;
-        margin: 0 0 8px 0;
-        padding: 0;
-        display: block;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        z-index: 1
-    }
-
-        .select-wrapper input.select-dropdown:focus {
-            border-bottom: 1px solid #26a69a
-        }
-
-    .select-wrapper .caret {
-        position: absolute;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto 0;
-        z-index: 0;
-        fill: rgba(0,0,0,.87)
-    }
-
-    .select-wrapper + label {
-        position: absolute;
-        top: -26px;
-        font-size: .8rem
-    }
-
-select:disabled {
-    color: rgba(0,0,0,.42)
-}
-
-.select-wrapper.disabled + label {
-    color: rgba(0,0,0,.42)
-}
-
-.select-wrapper.disabled .caret {
-    fill: rgba(0,0,0,.42)
-}
-
-.select-wrapper input.select-dropdown:disabled {
-    color: rgba(0,0,0,.42);
-    cursor: default;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
-
-.select-wrapper i {
-    color: rgba(0,0,0,.3)
-}
-
-.select-dropdown li.disabled, .select-dropdown li.disabled > span, .select-dropdown li.optgroup {
-    color: rgba(0,0,0,.3);
-    background-color: transparent
-}
-
-.select-dropdown.dropdown-content li:hover {
-    background-color: rgba(0,0,0,.08)
-}
-
-.select-dropdown.dropdown-content li.selected {
-    background-color: rgba(0,0,0,.03)
-}
-
-.select-dropdown.dropdown-content li:focus {
-    background-color: rgba(0,0,0,.08)
-}
-
-.prefix ~ .select-wrapper {
-    margin-left: 3rem;
-    width: 92%;
-    width: calc(100% - 3rem)
-}
 
 .prefix ~ label {
     margin-left: 3rem
 }
-
-.select-dropdown li img {
-    height: 40px;
-    width: 40px;
-    margin: 5px 15px;
-    float: right
-}
-
-.select-dropdown li.optgroup {
-    border-top: 1px solid #eee
-}
-
-    .select-dropdown li.optgroup.selected > span {
-        color: rgba(0,0,0,.7)
-    }
-
-    .select-dropdown li.optgroup > span {
-        color: rgba(0,0,0,.4)
-    }
-
-    .select-dropdown li.optgroup ~ li.optgroup-option {
-        padding-left: 1rem
-    }
 
 .file-field {
     position: relative
@@ -8102,28 +7861,28 @@ input[type=range] {
     margin: 0 auto
 }
 
-    .datepicker-controls .selects-container {
+    .datepicker-controls  {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex
     }
 
-    .datepicker-controls .select-wrapper input {
+    .datepicker-controls input {
         border-bottom: none;
         text-align: center;
         margin: 0
     }
 
-        .datepicker-controls .select-wrapper input:focus {
+        .datepicker-controls  input:focus {
             border-bottom: none
         }
 
-    .datepicker-controls .select-wrapper .caret {
+    .datepicker-controls  .caret {
         display: none
     }
 
-    .datepicker-controls .select-year input {
+    .datepicker-controls input {
         width: 50px
     }
 

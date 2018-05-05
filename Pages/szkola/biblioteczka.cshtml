@@ -1,0 +1,69 @@
+﻿@page
+@model HomePage.Pages.szkola.biblioteczkaModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Biblioteczka</title>
+	<link href="~/css/bootstrap.css" rel="stylesheet" media="screen,projection" />
+	<link href="~/css/site.css" rel="stylesheet" />
+	<script src="~/js/jquery.js"></script>
+
+</head>
+<body>
+	<h2 class="center-align">Biblioteczka</h2>
+	<!--<button id="add" onclick="add()">ADD</button>-->
+	<div class="container row">
+		<div class="container col s12 m6">
+			<h3 class="center-align">Dodaj książkę do bazy</h3>
+			
+				<input type="text" required name="book_name" placeholder="Tytuł książki" id="nm"/>
+				<input type="text" required name="book_author" placeholder="Autor" id="aut"/>
+				<input type="text" required name="book_release" placeholder="Rok wydania" inputmode="numeric" id="rl"/>
+				<input type="text" required name="book_pages" placeholder="Liczba stron" inputmode="numeric" id="pgs"/>
+				<div class="center-align"><input type="submit" style="padding:4px 40px; margin-top:2rem" value="Dodaj" onclick="fetchForm()" /></div>
+			
+		</div>
+		<div class="container col s12 m6">
+			<h3 class="center-align">Wyszukaj książkę w bazie po:</h3>
+			<form method="get">
+				<div class="center-align">
+					<p style="display:inline;margin-right:30px;">
+						<label>
+							<input name="category" type="radio" checked />
+							<span>Tytuł</span>
+						</label>
+					</p>
+					<p style="display:inline;margin-right:30px;">
+						<label>
+							<input name="category" type="radio" />
+							<span>Autor</span>
+						</label>
+					</p>
+					<p style="display:inline;margin-right:30px;">
+						<label>
+							<input name="category" type="radio" />
+							<span>Rok wydania</span>
+						</label>
+					</p>
+					<p style="display:inline;margin-right:30px;">
+						<label>
+							<input name="category" type="radio" />
+							<span>Liczba stron</span>
+						</label>
+					</p>
+				</div>
+				<div class="center-align"><input type="submit" style="padding:4px 40px; margin-top:2rem" value="Szukaj" /></div>
+			</form>
+			<input type="text" disabled contenteditable="false" name="query_result" value="Wynik szukania" />
+		</div>
+	</div>
+	<div class="container">
+		<h3 class="center-align">Co jest w bazie:</h3>
+	</div>
+	<script src="~/js/biblioteczka.js"></script>
+</body>
+</html>

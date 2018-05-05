@@ -38,7 +38,7 @@ namespace HomePage.Pages
         //Return post with given id
         // GET api/<controller>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Post Get(int id)
         {
             Post post;
             id = Convert.ToUInt16(id);
@@ -49,7 +49,7 @@ namespace HomePage.Pages
             MySqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                 post = new Post
+                  return post = new Post
                 {
                     id = int.Parse(reader["id"].ToString()),
                     post_name = reader["post_name"].ToString(),
@@ -58,7 +58,7 @@ namespace HomePage.Pages
                 };
             }
             conn.Close();
-            return "value";
+            return new Post(); 
         }
     }
 }

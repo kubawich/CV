@@ -23,6 +23,7 @@ namespace HomePage
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +38,9 @@ namespace HomePage
             {
                 app.UseExceptionHandler("/Error");
             }
+
+            app.UseCors(builder =>
+            builder.WithOrigins("https://jakub.wichlinski.pl").AllowAnyHeader());
 
             app.UseStaticFiles();
 

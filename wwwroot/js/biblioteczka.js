@@ -42,7 +42,7 @@ function sendtoDB(title, author, year, pages) {
         }
     };
 
-    xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/${title}/${author}/${year}/${pages}`, true);
+    xmlhttp.open("GET", `https://jakub.wichlinski.pl/api/library/api/library/${title}/${author}/${year}/${pages}`, true);
     xmlhttp.send();
 }
 
@@ -82,7 +82,7 @@ function lookForBook() {
                 }
             }
         };
-        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${1}/${query_input}`, true);
+        xmlhttp.open("GET", `https://jakub.wichlinski.pl/api/library/api/library/get/${1}/${query_input}`, true);
         xmlhttp.send();
     }
     else if (document.getElementById('radio_author').checked == true) {
@@ -97,7 +97,7 @@ function lookForBook() {
                 }
             }
         };
-        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${2}/${query_input}`, true);
+        xmlhttp.open("GET", `https://jakub.wichlinski.pl/api/library/api/library/get/${2}/${query_input}`, true);
         xmlhttp.send();
     }
     else if (document.getElementById('radio_year').checked == true) {
@@ -112,7 +112,7 @@ function lookForBook() {
                 }
             }
         };
-        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${3}/${query_input}`, true);
+        xmlhttp.open("GET", `https://jakub.wichlinski.pl/api/library/api/library/get/${3}/${query_input}`, true);
         xmlhttp.send();
     }
     else if (document.getElementById('radio_pages').checked == true) {
@@ -127,7 +127,7 @@ function lookForBook() {
                 }
             }
         };
-        xmlhttp.open("GET", `http://localhost:51195/api/library/api/library/get/${4}/${query_input}`, true);
+        xmlhttp.open("GET", `https://jakub.wichlinski.pl/api/library/api/library/get/${4}/${query_input}`, true);
         xmlhttp.send();
     }
 }
@@ -144,7 +144,7 @@ function GetAll() {
             }
         }
     };
-    xmlhttp.open("GET", 'http://localhost:51195/api/library/api/library/get/library', true);
+    xmlhttp.open("GET", 'https://jakub.wichlinski.pl/api/library/api/library/get/library', true);
     xmlhttp.send();
 }
 window.onload = GetAll

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
-
+using System.Web.Http.Cors;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,6 +18,7 @@ namespace HomePage.Pages.szkola
         public string year { get; set; }
         public string pages { get; set; }
     }
+    [EnableCors(origins: "https://jakub.wichlinski.pl", headers: "*", methods: "*")]
     [Route("api/[controller]")]
     public class library : Controller
     {
@@ -38,6 +39,7 @@ namespace HomePage.Pages.szkola
         }
 
         // GET api/library/api/library/Dziady/AdamMickiewicz/1860/290
+        [EnableCors(origins: "https://jakub.wichlinski.pl", headers: "*", methods: "*")]
         [Route("api/[controller]/{title}/{author}/{year}/{pages}")]
         [HttpGet]
         public string Get(string title, string author, string year, string pages)
@@ -56,6 +58,7 @@ namespace HomePage.Pages.szkola
         }
 
         // GET api/library/api/library/Dziady/AdamMickiewicz/1860/290
+        [EnableCors(origins: "https://jakub.wichlinski.pl", headers: "*", methods: "*")]
         [Route("api/[controller]/get/{type}/{query}")]
         [HttpGet]
         public Book Get(int type,string query)

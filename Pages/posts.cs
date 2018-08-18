@@ -30,8 +30,7 @@ namespace HomePage.Pages
         // GET: api/<controller>
         [HttpGet]
         public IEnumerable<string> Get()
-        {
-            
+        { 
             return new string[] { "value1", "value2" };
         }
 

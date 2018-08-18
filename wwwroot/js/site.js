@@ -13,13 +13,13 @@ function Change(section) {
 
     document.getElementById("top").addEventListener("click", function (event) {}, false);
 
-    if (section == `About`) {
+    if (section === `About`) {
         container.innerHTML = null;
         let about = document.createElement('about');
         container.appendChild(about);
         riot.mount(about, 'about');
     }
-    else if (section == `Portfolio`) {
+    else if (section === `Portfolio`) {
         
 
         container.innerHTML = null;
@@ -27,7 +27,7 @@ function Change(section) {
         container.appendChild(portfolio);
         riot.mount(portfolio, 'portfolio');
     }
-    else if (section == `Blog`) {
+    else if (section === `Blog`) {
         container.innerHTML = null;
         let blog = document.createElement('blog');
         container.appendChild(blog);

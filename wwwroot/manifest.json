@@ -1,9 +1,10 @@
 ﻿{
+  "name": "Jakub's private portfolio site",
+  "short_name": "Jakub's site",
+  "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#fff",
   "background_color": "#000",
-  "short_name": "Jakub's site",
-  "name": "Jakub's private portfolio site",
   "icons": [
     {
       "src": "./fonts/icon48.png",
@@ -26,7 +27,6 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://jakub.wichlinski.pl/",
   "orientation": "portrait-primary",
   "scope": "../",
   "categories": [ "programiing", "webdev", "gamedev", "dotnet" ],

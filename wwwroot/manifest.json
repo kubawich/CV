@@ -1,7 +1,7 @@
 ﻿{
   "name": "Jakub's private portfolio site",
   "short_name": "Jakub's site",
-  "start_url": "/",
+  "start_url": ".",
   "display": "fullscreen",
   "theme_color": "#fff",
   "background_color": "#000",
@@ -33,7 +33,7 @@
   "lang": "eng",
   "serviceworker": {
     "src": "./js/sw.js",
-    "scope": "../",
+    "scope": ".",
     "update_via_cache": "imports"
   }
 }

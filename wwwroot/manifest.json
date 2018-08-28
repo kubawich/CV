@@ -2,26 +2,26 @@
   "display": "standalone",
   "theme_color": "#fff",
   "background_color": "#000",
-  "short_name": "Jakub Wichlinski",
+  "short_name": "Jakub's site",
   "name": "Jakub's private portfolio site",
   "icons": [
     {
-      "src": "./fonts/icon.png",
+      "src": "./fonts/icon48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "./fonts/icon.png",
+      "src": "./fonts/icon96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "./fonts/icon.png",
+      "src": "./fonts/icon192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./fonts/icon.png",
+      "src": "./fonts/icon512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

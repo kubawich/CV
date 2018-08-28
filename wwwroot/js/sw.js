@@ -6,8 +6,18 @@ self.addEventListener('install', function (event) {
             .then(function (cache) {
                 console.log('Opened cache');
                 return cache.addAll([
-                    './'
-                   
+                    
+                    '../css/site.min.css',
+                    '../css/bootstrap.min.css',
+                    '../fonts/',
+                    '../CV.pdf',
+                    './site.min.js',
+                    './jquery.min.js',
+                    './materialize.min.js',
+                    './about.js',
+                    './blog.js',
+                    './portfolio.js',
+                    './riot.min.js'
                 ]).then(function () {
                     self.skipWaiting();
                 });

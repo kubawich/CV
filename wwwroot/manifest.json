@@ -1,8 +1,8 @@
 ﻿{
   "name": "Jakub's private portfolio site",
   "short_name": "Jakub's site",
-  "start_url": "https://jakub.wichlinski.pl",
-  "display": "standalone",
+  "start_url": ".",
+  "display": "fullscreen",
   "theme_color": "#fff",
   "background_color": "#000",
   "icons": [
@@ -30,5 +30,10 @@
   "orientation": "portrait-primary",
   "scope": "../",
   "categories": [ "programiing", "webdev", "gamedev", "dotnet" ],
-  "lang": "eng-gb"
+  "lang": "eng",
+  "serviceworker": {
+    "src": "./js/sw.js",
+    "scope": ".",
+    "update_via_cache": "none"
+  }
 }

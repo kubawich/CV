@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "1630cf97e6ef6542e9065c45ca7c0b812d74955a"
+    "signature": "100eca48ba0b64fe1f8d0d1898485342ca4cfdb1"
   },
   "compilationOptions": {
     "defines": [
@@ -24,12 +24,12 @@
     ".NETCoreApp,Version=v2.0": {
       "HomePage/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Cors": "5.2.5",
+          "Microsoft.AspNet.WebApi.Cors": "5.2.6",
           "Microsoft.AspNetCore.All": "2.0.6",
           "Microsoft.AspNetCore.Antiforgery": "2.0.2",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
-          "MySql.Data": "8.0.11"
+          "MySql.Data": "8.0.12"
         },
         "runtime": {
           "HomePage.dll": {}
@@ -156,55 +156,55 @@
           "lib/netstandard1.6/Microsoft.AI.DependencyCollector.dll": {}
         }
       },
-      "Microsoft.AspNet.Cors/5.2.5": {
+      "Microsoft.AspNet.Cors/5.2.6": {
         "runtime": {
           "lib/net45/System.Web.Cors.dll": {
-            "assemblyVersion": "5.2.5.0",
-            "fileVersion": "5.2.60501.0"
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
           }
         },
         "compile": {
           "lib/net45/System.Web.Cors.dll": {}
         }
       },
-      "Microsoft.AspNet.WebApi.Client/5.2.5": {
+      "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "10.0.1",
           "Newtonsoft.Json.Bson": "1.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
-            "assemblyVersion": "5.2.5.0",
-            "fileVersion": "5.2.60501.0"
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/System.Net.Http.Formatting.dll": {}
         }
       },
-      "Microsoft.AspNet.WebApi.Core/5.2.5": {
+      "Microsoft.AspNet.WebApi.Core/5.2.6": {
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Client": "5.2.5"
+          "Microsoft.AspNet.WebApi.Client": "5.2.6"
         },
         "runtime": {
           "lib/net45/System.Web.Http.dll": {
-            "assemblyVersion": "5.2.5.0",
-            "fileVersion": "5.2.60501.0"
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
           }
         },
         "compile": {
           "lib/net45/System.Web.Http.dll": {}
         }
       },
-      "Microsoft.AspNet.WebApi.Cors/5.2.5": {
+      "Microsoft.AspNet.WebApi.Cors/5.2.6": {
         "dependencies": {
-          "Microsoft.AspNet.Cors": "5.2.5",
-          "Microsoft.AspNet.WebApi.Core": "5.2.5"
+          "Microsoft.AspNet.Cors": "5.2.6",
+          "Microsoft.AspNet.WebApi.Core": "5.2.6"
         },
         "runtime": {
           "lib/net45/System.Web.Http.Cors.dll": {
-            "assemblyVersion": "5.2.5.0",
-            "fileVersion": "5.2.60501.0"
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
           }
         },
         "compile": {
@@ -3010,17 +3010,17 @@
           "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
-      "MySql.Data/8.0.11": {
+      "MySql.Data/8.0.12": {
         "dependencies": {
           "Google.Protobuf": "3.5.1",
-          "System.Configuration.ConfigurationManager": "4.4.0",
-          "System.Security.Permissions": "4.4.0",
+          "System.Configuration.ConfigurationManager": "4.4.1",
+          "System.Security.Permissions": "4.4.1",
           "System.Text.Encoding.CodePages": "4.4.0"
         },
         "runtime": {
           "lib/netcoreapp2.0/MySql.Data.dll": {
-            "assemblyVersion": "8.0.11.0",
-            "fileVersion": "8.0.11.0"
+            "assemblyVersion": "8.0.12.0",
+            "fileVersion": "8.0.12.0"
           }
         },
         "compile": {
@@ -3613,14 +3613,14 @@
           "lib/netstandard1.0/System.Composition.TypedParts.dll": {}
         }
       },
-      "System.Configuration.ConfigurationManager/4.4.0": {
+      "System.Configuration.ConfigurationManager/4.4.1": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "4.4.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.25519.3"
+            "fileVersion": "4.6.25921.2"
           }
         },
         "compile": {
@@ -4479,14 +4479,14 @@
           "ref/netstandard2.0/System.Security.Cryptography.Xml.dll": {}
         }
       },
-      "System.Security.Permissions/4.4.0": {
+      "System.Security.Permissions/4.4.1": {
         "dependencies": {
           "System.Security.AccessControl": "4.4.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.Permissions.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.25519.3"
+            "fileVersion": "4.6.25921.2"
           }
         },
         "compile": {
@@ -4986,33 +4986,33 @@
       "path": "microsoft.applicationinsights.dependencycollector/2.4.1",
       "hashPath": "microsoft.applicationinsights.dependencycollector.2.4.1.nupkg.sha512"
     },
-    "Microsoft.AspNet.Cors/5.2.5": {
+    "Microsoft.AspNet.Cors/5.2.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wziQKJRhnM+qgX56jIgu25lStXU+j1VpIrWMbPR54nFqlcs1DyeWVY+tsyh7Y7+v1Ugmc326TsJbmhP+pvESCg==",
-      "path": "microsoft.aspnet.cors/5.2.5",
-      "hashPath": "microsoft.aspnet.cors.5.2.5.nupkg.sha512"
+      "sha512": "sha512-9aZAbHBY8StAwehBYWPs6ewrc4hdyaj6O0cxgPme5vU9eYNz9kAfbX5z6I1LFsnpWzthpsikcJTE1OyAl/JzuQ==",
+      "path": "microsoft.aspnet.cors/5.2.6",
+      "hashPath": "microsoft.aspnet.cors.5.2.6.nupkg.sha512"
     },
-    "Microsoft.AspNet.WebApi.Client/5.2.5": {
+    "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Syxd0gdcEIxOwabl8HFf9mtyALEk471tFcAQbHv5Qvk2okJ4IYqNLBu52jokZM1u0xT4AI7U6ilAtb/y1RFBtQ==",
-      "path": "microsoft.aspnet.webapi.client/5.2.5",
-      "hashPath": "microsoft.aspnet.webapi.client.5.2.5.nupkg.sha512"
+      "sha512": "sha512-rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
+      "path": "microsoft.aspnet.webapi.client/5.2.6",
+      "hashPath": "microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512"
     },
-    "Microsoft.AspNet.WebApi.Core/5.2.5": {
+    "Microsoft.AspNet.WebApi.Core/5.2.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZOIyK33X9tJlg2PMpwtizFGNlVmkaKWj6TqxqtnBKtLMbrx9ZjxC5RRw0nEHY2AIoPGhBhdM6mitRCJ3TIhk9g==",
-      "path": "microsoft.aspnet.webapi.core/5.2.5",
-      "hashPath": "microsoft.aspnet.webapi.core.5.2.5.nupkg.sha512"
+      "sha512": "sha512-QMFixs/MvKZXjfUbV0gXxF85LKi+keu/zJKv13upg/JlcxJ+wdLSYzyHO/sgPPUuFVstgndK6Zt3VduWeqFmHQ==",
+      "path": "microsoft.aspnet.webapi.core/5.2.6",
+      "hashPath": "microsoft.aspnet.webapi.core.5.2.6.nupkg.sha512"
     },
-    "Microsoft.AspNet.WebApi.Cors/5.2.5": {
+    "Microsoft.AspNet.WebApi.Cors/5.2.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1ZYKVhdy9iYsbpWwwkqQGQG/BwGC1GKzCEzLZa5hSCTkUF1wZcvVHGAGhUO43PTpfU+NgWXbeQTg1zTAul4nrw==",
-      "path": "microsoft.aspnet.webapi.cors/5.2.5",
-      "hashPath": "microsoft.aspnet.webapi.cors.5.2.5.nupkg.sha512"
+      "sha512": "sha512-ZQU40+mCROg6cRE3tydEIuZBC7fh8ZueJmiz3HpaRoTriZVond1rLCcDu/PJM7FQJa0k8ut7iRUTgB1kU5yWFw==",
+      "path": "microsoft.aspnet.webapi.cors/5.2.6",
+      "hashPath": "microsoft.aspnet.webapi.cors.5.2.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore/2.0.2": {
       "type": "package",
@@ -6190,12 +6190,12 @@
       "path": "microsoft.win32.registry/4.4.0",
       "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
     },
-    "MySql.Data/8.0.11": {
+    "MySql.Data/8.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P5zKcnM2SVtdHD6gfReymJguIYLhNL5Og8Qm5TC9MEsSupsAYrRu4AB4nsbalrjqqv8VHBqVREWsXg9lY+q03A==",
-      "path": "mysql.data/8.0.11",
-      "hashPath": "mysql.data.8.0.11.nupkg.sha512"
+      "sha512": "sha512-I2jGfuyeomrGJ+N9O+vuV2ucyeayf/tMFREKPdjUcs1/wUF0t+WgUnnzJmJl4sNePNR1fEvAGaGbVAo4uLSF2A==",
+      "path": "mysql.data/8.0.12",
+      "hashPath": "mysql.data.8.0.12.nupkg.sha512"
     },
     "Newtonsoft.Json/10.0.1": {
       "type": "package",
@@ -6540,12 +6540,12 @@
       "path": "system.composition.typedparts/1.0.31",
       "hashPath": "system.composition.typedparts.1.0.31.nupkg.sha512"
     },
-    "System.Configuration.ConfigurationManager/4.4.0": {
+    "System.Configuration.ConfigurationManager/4.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
-      "path": "system.configuration.configurationmanager/4.4.0",
-      "hashPath": "system.configuration.configurationmanager.4.4.0.nupkg.sha512"
+      "sha512": "sha512-jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
+      "path": "system.configuration.configurationmanager/4.4.1",
+      "hashPath": "system.configuration.configurationmanager.4.4.1.nupkg.sha512"
     },
     "System.Console/4.3.0": {
       "type": "package",
@@ -6974,12 +6974,12 @@
       "path": "system.security.cryptography.xml/4.4.0",
       "hashPath": "system.security.cryptography.xml.4.4.0.nupkg.sha512"
     },
-    "System.Security.Permissions/4.4.0": {
+    "System.Security.Permissions/4.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ArK+Kh7BSqWhspqO3qe8R25MeUzBm3ZdWbYiN6Q0kLO3nR4dLeZzS03C0QUI/470w7pGRm7lUZ9sjfDQKJjRcQ==",
-      "path": "system.security.permissions/4.4.0",
-      "hashPath": "system.security.permissions.4.4.0.nupkg.sha512"
+      "sha512": "sha512-l8IxQ9mEAkKv85uoEcjcYhrh+yTLZtLgNqb2T7QChTdKXh45EUnmKd+Ckdt1D+VYW2dk2Pb5MT+0zwQ74Jd2Xg==",
+      "path": "system.security.permissions/4.4.1",
+      "hashPath": "system.security.permissions.4.4.1.nupkg.sha512"
     },
     "System.Security.Principal/4.3.0": {
       "type": "package",

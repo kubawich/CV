@@ -27,5 +27,8 @@
     }
   ],
   "start_url": "https://jakub.wichlinski.pl/",
-  "orientation": "portrait-primary"
+  "orientation": "portrait-primary",
+  "scope": "../",
+  "categories": [ "programiing", "webdev", "gamedev", "dotnet" ],
+  "lang": "eng-gb"
 }

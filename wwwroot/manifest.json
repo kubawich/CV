@@ -33,7 +33,7 @@
   "lang": "eng",
   "serviceworker": {
     "src": "./js/sw.js",
-    "scope": "/",
+    "scope": "../",
     "update_via_cache": "imports"
   }
 }

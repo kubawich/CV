@@ -21,11 +21,11 @@
 		  <div class="black_ row container">
 			  <div class="col s10 offset-s2 offset-m3 center-align">
 				  <ul>
-					  <li><div class="valign-wrapper"><p id="list">.NET &amp; ASP.NET</p></div></li>
-					  <li><div class="valign-wrapper"><p id="list">Developing C# apps for various systems</p></div></li>
-					  <li><div class="valign-wrapper"><p id="list">Backend, gamedev, mobile dev</p></div></li>
-					  <li><div class="valign-wrapper"><p id="list">Algorithms optimization</p></div></li>
-					  <li><div class="valign-wrapper"><p id="list">Realtime graphics rasterization from backstage</p></div></li>
+					  <li><div class="valign-wrapper"><p class="list">.NET &amp; ASP.NET</p></div></li>
+					  <li><div class="valign-wrapper"><p class="list">Developing C# apps for various systems</p></div></li>
+					  <li><div class="valign-wrapper"><p class="list">Backend, gamedev, mobile dev</p></div></li>
+					  <li><div class="valign-wrapper"><p class="list">Algorithms optimization</p></div></li>
+					  <li><div class="valign-wrapper"><p class="list">Realtime graphics rasterization from backstage</p></div></li>
 				  </ul>
 			  </div>
 		  </div>
@@ -58,8 +58,8 @@
         but I was so impressed that after this first lesson I came back to my old passion and started writing tons of small programs as I would be back to my Windows batch times.</h5><p></p><h5 class="story">
         Of course after a bit of time I wanted to make sth bigger, better, prettier and more sophisticated. I started reading about WinForms, and after week I wrote <a href="https://github.com/kubawich/Name-Generator">this.</a>
         I spent so much time on forums looking for simpliest ways to solve problems. I've learned a lot of stuff during this project like WinForms, Git, Generics and Arrays, and optimization.
-        Looking back on my code I laugh out of the solutions I wrote to achieve this. </h5><p></p><h5 class="story">On another bootcamp meeting on University I wrote <a href="https://github.com/kubawich/RayMarching">this</a>.
-        It was my implementation of Ray Marching algorithm I learned when I was studying graphics concepts for Blender, it is much better than prevoius one, it has abstractions, objects and WinDraw.
+        Looking back on my code I laugh out of the solutions I wrote to achieve this. </h5><p></p><h5 class="story">On another bootcamp meeting on University I wrote <a href="https://github.com/kubawich/RayMarching">this simple raymarcher</a>.
+        I lerant what it is during my studies on graphics concepts for Blender, it is much better than prevoius one, it has abstractions, objects and WinDraw.
         During next months I wrote several applications which You can check out on <a href="https://github.com/kubawich?tab=repositories">my GitHub.</a>
         </h5><p></p><h5 class="story">After several months, I got back to game development of which I was thinking since I started coding. Because of C# I took Unity, It was easy to start. Therefore my first project was android jumping game,
         I finished it in 4 months, and it turned out that it's not that easy as I expected, I had hundreds lines of spaghetti and unefficient code, but it  was working so I decided to put it on Amazon store,

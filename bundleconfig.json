@@ -26,5 +26,17 @@
     "inputFiles": [
       "wwwroot/css/site.css"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/js/riot.min.js",
+    "inputFiles": [
+      "wwwroot/js/riot.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/jquery.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery.js"
+    ]
   }
 ]

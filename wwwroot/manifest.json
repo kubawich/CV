@@ -3,22 +3,29 @@
   "theme_color": "#fff",
   "background_color": "#000",
   "short_name": "Jakub Wichlinski",
+  "name": "Jakub's private portfolio site",
   "icons": [
     {
-      "src": "ico_48.png",
+      "src": "./fonts/icon.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "ico_96.png",
+      "src": "./fonts/icon.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "ico_192.png",
+      "src": "./fonts/icon.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "./fonts/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "start_url": "https://jakub.wichlinski.pl/"
+  "start_url": "https://jakub.wichlinski.pl/",
+  "orientation": "portrait-primary"
 }

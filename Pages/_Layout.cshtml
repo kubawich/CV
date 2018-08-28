@@ -44,7 +44,17 @@
 	<link href="css/site.css" rel="stylesheet" />
 </head>
 <body>
-
+<script>
+	if ('serviceWorker' in navigator) {
+		window.addEventListener('load', function () {
+			navigator.serviceWorker.register('./js/sw.js').then(function (registration) {
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			}, function (err) {
+				console.log('ServiceWorker registration failed: ', err);
+			});
+		});
+	}
+</script>
 	<script  src="~/js/riot.min.js"></script>
 	<div class="container">
 		@RenderBody()

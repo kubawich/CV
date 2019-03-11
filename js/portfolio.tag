@@ -2,23 +2,23 @@
   <div class="container row" id="Portfolio">
     <h2 class="center-align">My skills</h2>
     <div class="bar valign-wrapper">
-      <p>90%</p>
+      <p>9/10</p>
       <p>C#</p>
     </div>
     <div class="bar valign-wrapper">
-      <p>70%</p>
+      <p>7/10</p>
       <p>ASP.NET core</p>
     </div>
     <div class="bar valign-wrapper">
-      <p>60%</p>
+      <p>6/10</p>
       <p>Linux and DBs</p>
     </div>
     <div class="bar valign-wrapper">
-      <p>80%</p>
+      <p>6/10</p>
       <p>Unity3D</p>
     </div>
     <div class="bar valign-wrapper">
-      <p>50%</p>
+      <p>5/10</p>
       <p>Frontend</p>
     </div>
   </div>
@@ -33,16 +33,16 @@
       <h2 class="center-align">Contact</h2>
       <div id="img_links" class="center-align">        
         <a href="https://twitter.com/KubaWichlinski" target="_blank">
-          <img src="/fonts/twitter.png" width="55" height="55"></img>
+          <img src="./fonts/twitter.png" width="55" height="55"></img>
         </a>
         <a href="http://www.linkedin.com/in/jakubwichlinski" target="_blank">
-          <img src="/fonts/linkedin.svg" width="55" height="55"></img>
+          <img src="./fonts/linkedin.svg" width="55" height="55"></img>
         </a>
         <a href="https://github.com/kubawich" target="_blank">
-          <img src="/fonts/git.svg" width="55" height="55"></img>
+          <img src="./fonts/git.svg" width="55" height="55"></img>
         </a>
         <a href="https://www.youtube.com/channel/UC8ojD7gMlvd54-YGf2fR3Ag?view_as=subscriber" target="_blank">
-          <img src="/fonts/yt.png" width="55" height="55"></img>
+          <img src="./fonts/yt.png" width="55" height="55"></img>
         </a>
       </div>
       <h5 class="center-align">
@@ -90,6 +90,7 @@
       <p class="center-align"><a href="https://github.com/kubawich/Hi-czyk-Unity-Desktop-Game" target="_blank" >Here's linkt to project on GitHub</a></p>
     <p class="center-align"><a href="https://www.youtube.com/channel/UC8ojD7gMlvd54-YGf2fR3Ag?view_as=subscriber" target="_blank" >And here link to YouTube chanel where I documented project's progress</a></p>
     </h5>
+
   <figure class="full-width parallax2">
     </figure>    
     <h2 class="center-align">SFML asteroids</h2>
@@ -105,6 +106,7 @@
       </ul>
       <p class="center-align"><a href="https://github.com/kubawich/AsteroidsSFML" target="_blank" >Here's linkt to project on GitHub</a></p>
     </h5>
+    
   <figure class="full-width parallax3">
     </figure>    
     <h2 class="center-align">Jump game</h2>

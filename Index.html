@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Jakub Wichlinski, my private site to store projects and blog posts, mostly IT, gamedev, and webdev.">
+	<meta lang="en-gb" />
+	<link rel="shortcut icon" type="image/x-icon" href="./fonts/favicon.ico" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="keywords" content="jakub wichlinski .NET developer frontend backend fullstack unity3d mobile c#" />
+	<meta name="rating" content="General">
+	<link rel="publisher" href="http://www.linkedin.com/in/jakubwichlinski">
+	<link rel="me" href="http://www.linkedin.com/in/jakubwichlinski" type="text/html">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="application-name" content="Jakub Wichlinski">
+	<link rel="icon" sizes="16x16 32x32 48x48 96x96" href="./fonts/icon96.png">
+	<link rel="icon" sizes="512x512" href="./fonts/icon512.png">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="dns-prefetch" href="\fonts.googleapis.com">
+	<link rel="dns-prefetch" href="\www.googletagservices.com">
+	<link rel="dns-prefetch" href="\partner.googleadservices.com">
+	<link rel="dns-prefetch" href="\tpc.googlesyndication.com">
+	<link rel="dns-prefetch" href="\pagead2.googlesyndication.com">
+	<link rel="canonical" href="https://jakub.wichlinski.pl/">
+	<link rel="index" href="https://jakub.wichlinski.pl/">
+	<link rel="first" href="https://jakub.wichlinski.pl/">
+	<meta name="theme-color" content="#fff">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="keywords" content="jakub, wichlinski, wichliński, kuba, IT, programming, c#, webdev, frontend, fullstack, coder, programmer, warsaw, poland, gamedev, unity" />
+	<meta name="rating" content="safe for kids">
+	<meta name="apple-mobile-web-app-title" content="Jakub Wichlinski">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta property="fb:app_id" content="485881775143313">
+	<meta property="og:title" content="Jakub Wichlinski" />
+	<meta property="og:url" content="https://jakub.wichlinski.pl/" />
+	<meta property="og:description" content="Jakub Wichlinski, my private site to store projects and blog posts, mostly IT, gamedev, and webdev.">
+	<meta property="article:author" content="Jakub Wichliski">
+	<meta property="og:image" content="https://asanablog-wpengine.netdna-ssl.com/wp-content/post-images/code-review-image-1024x520@2x.jpg">
+	<meta property="og:locale" content="en_US">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@@KubaWichlinski">
+	<meta name="twitter:creator" content="@@KubaWichlinski">
+	<meta name="twitter:url" content="https://jakub.wichlinski.pl/">
+	<meta name="twitter:title" content="Jakub Wichlinski">
+	<meta name="twitter:description" content="Jakub Wichlinski, my private site to store projects and blog posts, mostly IT, gamedev, and webdev.">
+	<meta name="twitter:image" content="https://asanablog-wpengine.netdna-ssl.com/wp-content/post-images/code-review-image-1024x520@2x.jpg">
+	<link rel="me" href="mailto:kubawich45@gmail.com">
+
+	<title>𝕁𝕒𝕜𝕦𝕓 𝕎𝕚𝕔𝕙𝕝𝕚𝕟𝕤𝕜𝕚 .ℕ𝔼𝕋 𝕕𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen,projection" />
+	<link href="./css/site.css" rel="stylesheet" />
+</head>
+<body>
+	<script  src="./js/riot.min.js"></script>
+	<div class="container">
+    <!--Header-->
+    <br /><br />
+    <div class="container row " id="top">
+	    <div class="col s12  header_text">
+		    <h3 class="center-align header">Jakub Wichliński</h3>
+		    <h6 class="center-align _header">.NET, full stack, gamedev, mobile</h6>
+	    </div>
+    </div>
+    <br />
+
+    <!--Menu-->
+    <div class="row container mid header_buttons" id="menu">
+	    <a class="col s12 m3  button" onclick="Change(`About`)">
+		    <h5 class="center-align menu_item">About me</h5>
+	    </a>
+	    <a class="col s12 m3   button" onclick="Change(`Portfolio`)">
+		    <h5 class="center-align menu_item">Portfolio</h5>
+	    </a>
+	    <a class="col s12 m3  button" onclick="Change(`Blog`)">
+		    <h5 class="center-align menu_item">Blog</h5>
+	    </a>
+    </div>
+    <br />
+    <div class="divider"></div>
+    <div id="content">
+	    <about></about>
+	    <script src="./js/about.js"></script>
+	    <script>riot.mount('about');</script>
+	    <script src="./js/portfolio.js"></script>
+	    <script src="./js/blog.js"></script>
+    </div>
+</div>
+	<br />
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Footer</h5>
+					<p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="https://jakub.wichlinski.pl/CV.pdf" target="_blank" rel="noreferrer">CV</a></li>
+						<li><a class="grey-text text-lighten-3" href="http://www.linkedin.com/in/jakubwichlinski" target="_blank" rel="noreferrer">LinkedIn</a></li>
+						<li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UC8ojD7gMlvd54-YGf2fR3Ag?view_as=subscriber" target="_blank" rel="noreferrer">YouTube</a></li>
+						<li><a class="grey-text text-lighten-3" href="https://twitter.com/KubaWichlinski" target="_blank" rel="noreferrer">Twitter</a></li>
+					</ul>
+				</div>
+			</div>
+				<div class="footer-copyright">
+					<div class="container">
+						© 2018 <a href="https://www.linkedin.com/in/jakubwichlinski/" rel=”noopener noreferrer”>Jakub Wichliński</a> All rights reserved
+						<a class="grey-text text-lighten-4 right" href="#top">Go to top</a>
+					</div>
+				</div>
+			</div>
+	</footer>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-118146059-1"></script>
+	<script defer>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-118146059-1');
+	</script>
+	<script  src="./js/site.min.js"></script>
+</body>
+</html>

@@ -90,14 +90,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -115,7 +107,6 @@ body {
 
 #menu>a {
     transition: opacity 0.7s;
-
 }
 
 #menu:hover a:not(:hover) {
@@ -192,8 +183,6 @@ h6 {
     font-weight: 300;
 }
 
-
-
 ul {
     list-style-image: url("../fonts/ic_favorite_border_24px.svg");
     font-size: 1.1em;
@@ -232,7 +221,6 @@ hr {
     font-weight: lighter;
     letter-spacing: 1.5px;
 }
-
 
 .mid {
     display: flex;
@@ -381,7 +369,7 @@ footer>.container>.row{
 
 @keyframes bar4 {
     0% {width:0%;}
-    100% {width: 80%;}
+    100% {width: 60%;}
 }
 .bar:nth-last-child(2) {
     animation: 2.5s .3s bar4 backwards ease-out;
@@ -417,7 +405,7 @@ footer>.container>.row{
 }
 
 .parallax0 {
-    background-image: url("/fonts/nsfw.png");
+    background-image: url("./../fonts/nsfw.png");
     height: 200px;
     background-attachment: fixed;
     background-position: top;
@@ -426,7 +414,7 @@ footer>.container>.row{
 }
 
 .parallax1 {
-    background-image: url("/fonts/hinczyk.png");
+    background-image: url("./../fonts/hinczyk.png");
     height: 200px;
     background-attachment: fixed;
     background-position: top;
@@ -435,7 +423,7 @@ footer>.container>.row{
 }
 
 .parallax2 {
-    background-image: url("/fonts/asteroids.PNG");
+    background-image: url("./../fonts/asteroids.PNG");
     height: 200px;
     background-attachment: fixed;
     background-position: top;
@@ -444,7 +432,7 @@ footer>.container>.row{
 }
 
 .parallax3 {
-    background-image: url("/fonts/jump.PNG");
+    background-image: url("./../fonts/jump.PNG");
     height: 200px;
     background-attachment: fixed;
     background-position: top;
